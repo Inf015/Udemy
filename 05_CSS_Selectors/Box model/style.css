@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #DBD0B8;
+    color: aliceblue;
+}
+
+#one{
+    background-color: #90e0ef;
+    border-width: 5px;
+    border-color: white ;
+    border-style: solid;
+}
+
+#two{
+    border: 5px solid white ;
+    background-color: #0096c7;
+    margin: 20px 10px;
+}
+
+#trhee{
+    background-color: #023e8a;
+    border-width: 5px ;
+    border-style: solid;
+    border-color: yellow
+
+}
+button{
+    padding: 10px 20px;
+}
