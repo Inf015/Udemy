@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms demo</h1>
+
+    <!--inputs-->
+    <form action="tacp">
+      <input type="text" name="q" />
+      <button>google</button>
+
+      <div>
+        <label for="password">Enter a password: </label>
+        <input type="password" name="" id="password" placeholder="password" />
+      </div>
+      <div>
+        <label for="color">Pick a color: </label>
+        <input type="color" name="" id="color" />
+      </div>
+      <div>
+        <label for="date">Pick a date: </label>
+
+        <input type="date" name="" id="date" />
+      </div>
+      <div>
+        <label for="number">Insert a number: </label>
+        <input type="number" name="" id="number" />
+      </div>
+      <button type="submit">submit</button>
+
+      <h2>More input</h2>
+      <input type="checkbox" name="tools" id="agree" />
+      <label for="agree">i agree everything</label>
+
+      <div>
+        <label for="Sice">S</label>
+        <input type="radio" name="Sice" id="S" />
+        <label for="Sice">M</label>
+        <input type="radio" name="Sice" id="M" />
+        <label for="Sice">L</label>
+        <input type="radio" name="Sice" id="L" />
+      </div>
+      <p>
+        <label for="pets">select a pet</label>
+        <select name="Pets" id="pet">
+          Pets
+          <option value="dog">dog</option>
+          <option value="Cat">cat</option>
+          <option value="Mat">Matarme</option>
+        </select>
+      </p>
+    </form>
+
+    <p>
+      <label for="rqu">req</label>
+      <textarea name="rqu" id="1" cols="30" rows="2"></textarea>
+    </p>
+
+    <h1>validation demo</h1>
+    <form action="/dummy">
+      <p>
+        <label for="first">Firt name: </label>
+        <input
+          type="text"
+          name="first"
+          id="first"
+          placeholder="First Name"
+          required
+        />
+      </p>
+      <p>
+        <label for="pass">pass: </label>
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="password"
+          required
+          minlength="8"
+          maxlength="20"
+        />
+      </p>
+      <button>Send</button>
+    </form>
+    <!--Label-->
+  </body>
+</html>
