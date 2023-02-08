@@ -1,0 +1,5 @@
+C:\Users\olive\OneDrive\Documents\GitHub\Udemy\C#\code\test\obj\Debug\net7.0\test.csproj.AssemblyReference.cache
+C:\Users\olive\OneDrive\Documents\GitHub\Udemy\C#\code\test\obj\Debug\net7.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\OneDrive\Documents\GitHub\Udemy\C#\code\test\obj\Debug\net7.0\test.AssemblyInfoInputs.cache
+C:\Users\olive\OneDrive\Documents\GitHub\Udemy\C#\code\test\obj\Debug\net7.0\test.AssemblyInfo.cs
+C:\Users\olive\OneDrive\Documents\GitHub\Udemy\C#\code\test\obj\Debug\net7.0\test.csproj.CoreCompileInputs.cache
