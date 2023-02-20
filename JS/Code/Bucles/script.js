@@ -1,4 +1,4 @@
- let num = 0
+//  let num = 0
 
 // if(num<5){
 //     num++
@@ -20,10 +20,14 @@
 // }
 // while(num3<5)
 
-while(num<1000){
-    num++
-    document.write(num)
-    if(num == 10){
-        break
-    }
+// while(num<1000){
+//     num++
+//     document.write(num)
+//     if(num == 10){
+//         break
+//     }
+// }
+ 
+for(let i = 0; i<6; i++){
+    document.write(i + "<br>")
 }
