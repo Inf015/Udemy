@@ -28,6 +28,29 @@
 //     }
 // }
  
-for(let i = 0; i<6; i++){
-    document.write(i + "<br>")
+// for(let i = 0; i<6; i++){
+//     document.write(i + "<br>")
+// }
+
+// let marcar = ["nissan","toyota","mini"]
+
+// for(auto in marcar){
+//     document.write(marcar[auto]+ "<br>")
+// }
+
+// for(auto of marcar){
+//     document.write(auto + "<br>")
+// }
+
+arrayl = [ "marfa" , "josefa" , "roberta"] ;
+array2 = ["pedro", "marcelo" , arrayl];
+
+for(let array in array2){
+    if(array == 2){
+        for(let array of arrayl){
+            document.write(array + "<br>")
+        }
+    }else{
+        document.write(array2[array] + "<br>")
+    }
 }
