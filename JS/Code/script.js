@@ -9,4 +9,4 @@ let Nombre = PC["Nombre"]
 let Procesador = PC["Procesador"]
 let Ram = PC["Ram"]
 let Espacio = PC["Espacio"]
-alert(Espacio)
+document.write(Nombre)
