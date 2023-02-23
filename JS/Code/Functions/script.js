@@ -1,11 +1,17 @@
-function saludar(){
-    respuesta = prompt("Hola como estas?")
-    if (respuesta == "bien") {
-        alert("Que bueno")
+// function saludar(){
+//     respuesta = prompt("Hola como estas?")
+//     if (respuesta == "bien") {
+//         alert("Que bueno")
         
-    }else{
-        alert("Que mal")
-    }
+//     }else{
+//         alert("Que mal")
+//     }
+// }
+// saludar()
+
+function saludar(){
+    alert("hola")
+    return "Todo bien"
 }
-saludar()
-saludar()
+let saludo = saludar()
+document.write(saludo)
