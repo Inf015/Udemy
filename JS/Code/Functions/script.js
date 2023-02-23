@@ -9,9 +9,18 @@
 // }
 // saludar()
 
-function saludar(){
-    alert("hola")
-    return "Todo bien"
+// function saludar(){
+//     alert("hola")
+//     return "Todo bien"
+// }
+// let saludo = saludar()
+// document.write(saludo)
+
+function sum(num1,num2){
+    let res = num1+num2
+    document.write(res)
+    document.write("<br>")
 }
-let saludo = saludar()
-document.write(saludo)
+
+sum(5,10)
+
