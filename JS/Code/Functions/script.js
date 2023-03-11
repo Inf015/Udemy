@@ -16,11 +16,17 @@
 // let saludo = saludar()
 // document.write(saludo)
 
-function sum(num1,num2){
-    let res = num1+num2
-    document.write(res)
-    document.write("<br>")
+// function sum(num1,num2){
+//     let res = num1+num2
+//     document.write(res)
+//     document.write("<br>")
+// }
+
+// sum(5,10)
+
+let saludar = (nombre)=>{
+    let frase = `Hola ${nombre} Como estas?`
+    document.write(frase)
 }
 
-sum(5,10)
-
+saludar("Pedro")
